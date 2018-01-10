@@ -7,6 +7,8 @@ import smtplib
 import threading
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+import os
+
 from WebScraper import *
 from instalib import *
 
@@ -65,6 +67,11 @@ class Account(threading.Thread):
 		self.unfollowList = []
 
 		self.targetAccounts = self.getTargetAccounts()
+
+		self.directory = 'users/' + self.username + '/'
+
+		if not os.path.exists(self.directory):
+			os.makedirs(self.directory)
 
 		self.session = requests.Session()
 		self.login()
@@ -169,22 +176,22 @@ class Account(threading.Thread):
 	def writeLog(self, data):
 		try:
 			print data
-			f = open("Logs/" + self.username + "_Logs.txt","a")
+			f = open(self.directory + "logs.txt","a")
 			f.write(data + '\n')
 			f.close()
 		except:
-			f = open("Logs/" + self.username + "_Logs.txt","w") 
+			f = open(self.directory + "logs.txt","w") 
 			f.close()
 			self.writeLog(data)
 
 	def writePreviouslyFollowed(self, data):
-		f = open("PreviouslyFollowed/" + self.username + "_PreviouslyFollowed.txt","a")
+		f = open(self.directory + "previous_user.txt","a")
 		f.write(data + '\n')
 		f.close()
 
 	def previouslyFollowed(self, user):
 		try:
-			f = open("PreviouslyFollowed/" + self.username + "_PreviouslyFollowed.txt","r") 
+			f = open(self.directory + "previous_user.txt","r") 
 			tempList = []
 			for line in f: 
 				 if user == line[:-1]:
@@ -194,7 +201,7 @@ class Account(threading.Thread):
 			f.close()
 			return False
 		except:
-			f = open("PreviouslyFollowed/" + self.username + "_PreviouslyFollowed.txt","w") 
+			f = open(self.directory + "previous_user.txt","w") 
 			return False
 		
 

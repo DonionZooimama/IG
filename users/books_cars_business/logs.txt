@@ -5605,3 +5605,26 @@
 [01/09/2018 22:42:27][books_cars_business] Successfully unfollowed user: cavetchristophe
 [01/09/2018 22:43:03][books_cars_business] Successfully followed user: sourkrauts_r_dope
 [01/09/2018 22:43:28][books_cars_business] Successfully unfollowed user: ardaqwe015
+[01/09/2018 22:43:48][books_cars_business] Successfully followed user: veloce_42
+[01/09/2018 22:44:29][books_cars_business] Successfully unfollowed user: jairofromsj
+[01/09/2018 22:44:34][books_cars_business] Successfully followed user: enzo_hood
+[01/09/2018 22:45:20][books_cars_business] Successfully followed user: caronwol
+[01/09/2018 22:45:29][books_cars_business] Successfully unfollowed user: i5aac201
+[01/09/2018 22:46:05][books_cars_business] Successfully followed user: 0julianhernandez
+--------------------------------------------------------------------------------
+[01/09/2018 22:51:59][books_cars_business] Attempting to login
+[01/09/2018 22:52:02][books_cars_business] Login successful
+[01/09/2018 22:52:03][books_cars_business] Successfully followed user: kkat1127
+[01/09/2018 22:52:04][books_cars_business] Successfully unfollowed user: wan89ni
+--------------------------------------------------------------------------------
+[01/09/2018 22:53:31][books_cars_business] Attempting to login
+[01/09/2018 22:53:34][books_cars_business] Login successful
+[01/09/2018 22:53:35][books_cars_business] Successfully followed user: zackarydanger
+[01/09/2018 22:53:36][books_cars_business] Successfully unfollowed user: starovoytova_anja
+--------------------------------------------------------------------------------
+[01/09/2018 22:53:43][books_cars_business] Attempting to login
+--------------------------------------------------------------------------------
+[01/09/2018 22:58:34][books_cars_business] Attempting to login
+[01/09/2018 22:58:36][books_cars_business] Login successful
+[01/09/2018 22:58:38][books_cars_business] Successfully followed user: that_romeo
+[01/09/2018 22:58:38][books_cars_business] Successfully unfollowed user: pascal__photography
