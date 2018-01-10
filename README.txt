@@ -1,3 +1,3 @@
 hello
 
-this is mine fuck off bitch
+this is mine fuck off stupid bitch
