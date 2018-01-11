@@ -184,6 +184,25 @@ class Account(threading.Thread):
 			f.close()
 			self.writeLog(data)
 
+	def writeCSV(self, status, event, data):
+		#try:
+		currentDateTime = str(datetime.now())
+		splitBySpace = currentDateTime.split(' ')
+		date = splitBySpace[0].split('-')
+		time = splitBySpace[1].split('.')[0]
+		time = time.split(':')
+
+		# day, month, year, hours, minutes, seconds, event
+		log = str(date[2]) + ',' + str(date[1]) + ',' + str(date[0]) + ',' + str(time[0]) + ',' + str(time[1]) + ',' + str(time[2]) + ',' + status + ',' + event + ',' + data
+
+		f = open(self.directory + "logs.csv","a")
+		f.write(log + '\n')
+		f.close()
+		#except:
+			#f = open(self.directory + "logs.csv","w") 
+			#f.close()
+			#self.writeCSV(status, event, data)
+
 	def writePreviouslyFollowed(self, data):
 		f = open(self.directory + "previous_user.txt","a")
 		f.write(data + '\n')
@@ -263,6 +282,7 @@ class Account(threading.Thread):
 				if follow_request == 200:
 					tempLog = "%s[%s] Successfully followed user: %s" % (self.getTimeStamp(), self.username, current_user['username'])
 					self.writeLog(tempLog)
+					self.writeCSV('success', 'follow', current_user['username'])
 					self.writePreviouslyFollowed(current_user['username'])
 					self.followingCount += 1
 					self.followIndex += 1
@@ -272,10 +292,12 @@ class Account(threading.Thread):
 						self.accountSuspended = True
 						tempLog = "%s[%s] !!!Error following user: %s Error code: %s !!!" % (self.getTimeStamp(), self.username, current_user['username'], str(follow_request))
 						self.writeLog(tempLog)
+						self.writeCSV('error', 'follow', str(follow_request))
 						self.sendEmail(tempLog)
 					else:
 						tempLog = "%s[%s] !!!Error following user: %s Error code: %s!!!" % (self.getTimeStamp(), self.username, current_user['username'], str(follow_request))
 						self.writeLog(tempLog)
+						self.writeCSV('error', 'follow', str(follow_request))
 						self.sendEmail(tempLog)
 
 	def unfollowsequence(self):
@@ -285,12 +307,14 @@ class Account(threading.Thread):
 			if unfollow_request == 200:
 				tempLog = "%s[%s] Successfully unfollowed user: %s" % (self.getTimeStamp(), self.username, current_user['username'])
 				self.writeLog(tempLog)
+				self.writeCSV('success', 'unfollow', current_user['username'])
 				self.followingCount -= 1
 				self.currentUnfollowTimer = 0
 				self.unfollowIndex += 1
 			else:
 				tempLog = "%s[%s] !!!Error unfollowing user: %s Error code: %s!!!" % (self.getTimeStamp(), self.username, current_user['username'], str(follow_request))
 				self.writeLog(tempLog)
+				self.writeCSV('error', 'unfollow', str(unfollow_request))
 				self.sendEmail(tempLog)
 				self.currentUnfollowTimer = 0
 

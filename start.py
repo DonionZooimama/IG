@@ -8,7 +8,7 @@ from threading import Thread
 from InstaAccount import *
 
 #info format [username, password, target audience, follows per hour, unfollows per hour, min following, max following per day]
-accountInfo = [["books_cars_business", "dRuc*bawr5du", "cars", 80, 60, 500, 1300]]
+accountInfo = [["books_cars_business", "dRuc*bawr5du", "cars", 80, 60, 500, 1000]]
 activeAccounts = []
 
 for a in accountInfo:
