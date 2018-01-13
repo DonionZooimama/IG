@@ -1,9 +1,18 @@
 import sys
+from datetime import datetime
 
 argList = sys.argv
 
 if argList[1] == 'help':
-	print('userinfo.py username [start date dd/mm/yy] [end date dd/mm/yy]')
+	print('userinfo.py help\n')
+	print('\tGet info from start of file to end of file')
+	print('\tuserinfo.py username\n')
+	print('\tGet info from start date till now')
+	print('\tuserinfo.py username [start date dd/mm/yy]\n')
+	print('\tGet info from start date till end date')
+	print('\tuserinfo.py username [start date dd/mm/yy] [end date dd/mm/yy]\n')
+	print('\tGet info from today')
+	print('\tuserinfo.py username today\n')
 else:
 	username = argList[1]
 
@@ -33,12 +42,40 @@ else:
 	unfollows = 0
 
 	
+	if startDate == 'today' or startDate == 'Today':
+		currentDateTime = str(datetime.now())
+		splitBySpace = currentDateTime.split(' ')
+		date = splitBySpace[0].split('-')
+		year = date[0]
+		month = date[1]
+		day = date[2]
+		start = int(date[0]) + int(date[1]) + int(date[2])
 
-	if startDate != None and endDate != None:
-		start = startDate.split('/')[0] + startDate.split('/')[1] + startDate.split('/')[2]
-		end = endDate.split('/')[0] + endDate.split('/')[1] + endDate.split('/')[2]
 		for log in csvList:
-			currentdate = log[0] + log[1] + log[2]
+			currentdate = int(log[0]) + int(log[1]) + int(log[2])
+			if currentdate >= start:
+				if log[6] == 'success':
+					if log[7] == 'follow':
+						follows += 1
+					elif log[7] == 'unfollow':
+						unfollows += 1
+				else:
+					errors += 1
+					errorsList.append(log)
+		print('From today till now\n')
+		print('Followed: ' + str(follows) + ' users')
+		print('Unfollowed: ' + str(unfollows) + ' users')
+		print('Errors: ' + str(errors))
+		if errors > 0:
+			print('\nHere are the logs:')
+			for error in errorsList:
+				formattedDate = '['+ error[0] + '/' + error[1] + '/' + error[2] + ' ' + error[3] + ':' + error[4] + ':'+ error[5] + ']'
+				print (formattedDate + "Error when action '" + error[7] + "' was preformed. Error code: " + error[8][:-1])
+	elif startDate != None and endDate != None:
+		start = int(startDate.split('/')[0]) + int(startDate.split('/')[1]) + int(startDate.split('/')[2])
+		end = int(endDate.split('/')[0]) + int(endDate.split('/')[1]) + int(endDate.split('/')[2])
+		for log in csvList:
+			currentdate = int(log[0]) + int(log[1]) + int(log[2])
 			if currentdate >= start and currentdate <= end:
 				if log[6] == 'success':
 					if log[7] == 'follow':
@@ -58,9 +95,9 @@ else:
 				formattedDate = '['+ error[0] + '/' + error[1] + '/' + error[2] + ' ' + error[3] + ':' + error[4] + ':'+ error[5] + ']'
 				print (formattedDate + "Error when action '" + error[7] + "' was preformed. Error code: " + error[8][:-1])
 	elif startDate != None:
-		start = startDate.split('/')[0] + startDate.split('/')[1] + startDate.split('/')[2]
+		start = int(startDate.split('/')[0]) + int(startDate.split('/')[1]) + int(startDate.split('/')[2])
 		for log in csvList:
-			currentdate = log[0] + log[1] + log[2]
+			currentdate = int(log[0]) + int(log[1]) + int(log[2])
 			if currentdate >= start:
 				if log[6] == 'success':
 					if log[7] == 'follow':

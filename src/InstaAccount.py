@@ -328,12 +328,19 @@ class Account(threading.Thread):
 		self.unfollowIndex = 0
 
 	def canfollow(self, user):
+		info = getuserinfo(self.session, user['username'])
+		followers = info['entry_data']['ProfilePage'][0]['user']['followed_by']['count']
+
 		if user['followed_by_viewer'] or user['requested_by_viewer']:
 			tempLog = "%s[%s] Already following user: %s" % (self.getTimeStamp(), self.username, user['username'])
 			self.writeLog(tempLog)
 			self.followIndex += 1
 		elif self.previouslyFollowed(user['username']):
 			tempLog = "%s[%s] %s has been followed before" % (self.getTimeStamp(), self.username, user['username'])
+			self.writeLog(tempLog)
+			self.followIndex += 1
+		elif user['is_verified'] == True or followers > 2000:
+			tempLog = "%s[%s] %s is verified or is a big account" % (self.getTimeStamp(), self.username, user['username'])
 			self.writeLog(tempLog)
 			self.followIndex += 1
 		else:

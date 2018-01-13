@@ -10,7 +10,7 @@ def findJson(data ,startTag, endTag):
 	while i < endIndex:
 		returnData += data[i]
 		i += 1
-
+		
 	return json.loads(returnData)	
 
 def findText(data ,startTag, endTag):
