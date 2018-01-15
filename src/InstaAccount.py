@@ -312,7 +312,7 @@ class Account(threading.Thread):
 				self.currentUnfollowTimer = 0
 				self.unfollowIndex += 1
 			else:
-				tempLog = "%s[%s] !!!Error unfollowing user: %s Error code: %s!!!" % (self.getTimeStamp(), self.username, current_user['username'], str(follow_request))
+				tempLog = "%s[%s] !!!Error unfollowing user: %s Error code: %s!!!" % (self.getTimeStamp(), self.username, current_user['username'], str(unfollow_request))
 				self.writeLog(tempLog)
 				self.writeCSV('error', 'unfollow', str(unfollow_request))
 				self.sendEmail(tempLog)

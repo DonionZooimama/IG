@@ -6,8 +6,9 @@ sys.path.append(os.path.join(sys.path[0], 'src'))
 
 from InstaAccount import *
 
-#info format [username, password, target audience, follows per hour, unfollows per hour, min following, max following per day]
-accountInfo = [["books_cars_business", "dRuc*bawr5du", "cars", 80, 60, 500, 1000]]
+file = open('start_info.txt',"r")
 
-for a in accountInfo:
-	temp = Account(a[0], a[1], a[2], a[3], a[4], a[5], a[6]).start()
+#info format [username, password, target audience, follows per hour, unfollows per hour, min following, max following per day]
+for line in file:
+	info = line.split(',')
+	temp = Account(info[0], info[1], info[2], int(info[3]), int(info[4]), int(info[5]), int(info[6])).start()
