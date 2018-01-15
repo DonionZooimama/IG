@@ -3,7 +3,7 @@ from datetime import datetime
 
 argList = sys.argv
 
-if argList[1] == 'help':
+if len(argList) <= 1 or argList[1] == 'help':
 	print('userinfo.py help\n')
 	print('\tGet info from start of file to end of file')
 	print('\tuserinfo.py username\n')
