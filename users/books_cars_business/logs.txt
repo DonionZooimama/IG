@@ -12977,3 +12977,358 @@
 [01/15/2018 14:17:54][books_cars_business] Successfully followed user: luk5621
 [01/15/2018 14:18:26][books_cars_business] Successfully unfollowed user: enzo.hry
 [01/15/2018 14:18:40][books_cars_business] Successfully followed user: bryan_elioth
+[01/15/2018 14:19:26][books_cars_business] Successfully followed user: fadeeva_life
+[01/15/2018 14:19:28][books_cars_business] Successfully unfollowed user: daniel_lopez_a
+[01/15/2018 14:20:11][books_cars_business] Successfully followed user: giovanni_fioretti93
+[01/15/2018 14:20:29][books_cars_business] Successfully unfollowed user: arturo_quero
+[01/15/2018 14:20:57][books_cars_business] shahrad_tlb is verified or is a big account
+[01/15/2018 14:21:00][books_cars_business] Successfully followed user: simonmondrup
+[01/15/2018 14:21:29][books_cars_business] Successfully unfollowed user: egidijussimanauskas
+--------------------------------------------------------------------------------
+[01/15/2018 21:52:27][books_cars_business] Attempting to login
+[01/15/2018 21:52:30][books_cars_business] Login successful
+--------------------------------------------------------------------------------
+[01/15/2018 21:54:27][books_cars_business] Attempting to login
+[01/15/2018 21:54:29][books_cars_business] Login successful
+[01/15/2018 21:54:31][books_cars_business] jcuribe507 is verified or is a big account
+[01/15/2018 21:54:32][books_cars_business] Successfully unfollowed user: fedefortis
+[01/15/2018 21:54:34][books_cars_business] Successfully followed user: cecisavioli
+[01/15/2018 21:55:20][books_cars_business] seigo_nk is verified or is a big account
+[01/15/2018 21:55:22][books_cars_business] Successfully followed user: cesar_mtz_
+[01/15/2018 21:55:30][books_cars_business] Successfully unfollowed user: tommaso.marra
+[01/15/2018 21:56:08][books_cars_business] Successfully followed user: zulkifli.effendy
+[01/15/2018 21:56:31][books_cars_business] Successfully unfollowed user: utkuerdem10
+[01/15/2018 21:56:53][books_cars_business] Successfully followed user: vinipbrasil
+[01/15/2018 21:57:31][books_cars_business] Successfully unfollowed user: caarl0z_
+[01/15/2018 21:57:38][books_cars_business] Successfully followed user: noppa_f
+[01/15/2018 21:58:24][books_cars_business] Successfully followed user: _meetpanchal_
+[01/15/2018 21:58:32][books_cars_business] Successfully unfollowed user: matthiaskraus99
+[01/15/2018 21:59:09][books_cars_business] Successfully followed user: jack_prw
+[01/15/2018 21:59:32][books_cars_business] Successfully unfollowed user: lorenzo.ollari
+[01/15/2018 21:59:54][books_cars_business] Successfully followed user: karol_yso01
+[01/15/2018 22:00:33][books_cars_business] Successfully unfollowed user: cuevaspau
+[01/15/2018 22:00:40][books_cars_business] Successfully followed user: mr_amathur
+[01/15/2018 22:01:26][books_cars_business] Successfully followed user: urita_takarawa
+[01/15/2018 22:01:33][books_cars_business] Successfully unfollowed user: emislina_
+[01/15/2018 22:02:11][books_cars_business] Successfully followed user: keny_jaramillo
+[01/15/2018 22:02:33][books_cars_business] Successfully unfollowed user: s.f.patriots_77
+[01/15/2018 22:02:56][books_cars_business] uncle_puank is verified or is a big account
+[01/15/2018 22:02:58][books_cars_business] Successfully followed user: mohsenkh3410
+--------------------------------------------------------------------------------
+[01/15/2018 22:03:08][books_cars_business] Attempting to login
+[01/15/2018 22:03:11][books_cars_business] Login successful
+--------------------------------------------------------------------------------
+[01/15/2018 22:03:29][books_cars_business] Attempting to login
+[01/15/2018 22:03:31][books_cars_business] Login successful
+[01/15/2018 22:03:33][books_cars_business] Successfully followed user: r_jmorris
+[01/15/2018 22:03:35][books_cars_business] Successfully unfollowed user: singh_2502
+--------------------------------------------------------------------------------
+[01/15/2018 22:06:41][books_cars_business] Attempting to login
+--------------------------------------------------------------------------------
+[01/15/2018 22:06:47][books_cars_business] Attempting to login
+[01/15/2018 22:06:49][books_cars_business] Login successful
+[01/15/2018 22:06:52][books_cars_business] Successfully followed user: sidd_ahir
+[01/15/2018 22:06:53][books_cars_business] Successfully unfollowed user: s_ilias69
+[01/15/2018 22:07:36][books_cars_business] Successfully followed user: devil_boy_suraj
+[01/15/2018 22:07:50][books_cars_business] Successfully unfollowed user: jessiesyu_
+[01/15/2018 22:08:37][books_cars_business] Successfully followed user: ridham_tripathi
+--------------------------------------------------------------------------------
+[01/15/2018 22:08:46][books_cars_business] Attempting to login
+[01/15/2018 22:08:49][books_cars_business] Login successful
+[01/15/2018 22:08:51][books_cars_business] Successfully followed user: bluebeluga62
+[01/15/2018 22:08:52][books_cars_business] Successfully unfollowed user: shyamchatwani
+[01/15/2018 22:09:35][books_cars_business] Successfully followed user: solo_wing88
+[01/15/2018 22:09:50][books_cars_business] Successfully unfollowed user: rtcht
+[01/15/2018 22:10:21][books_cars_business] Successfully followed user: ahmed_waheed1996
+[01/15/2018 22:10:51][books_cars_business] Successfully unfollowed user: deepu__100
+[01/15/2018 22:11:06][books_cars_business] maykoncarvalhoo is verified or is a big account
+[01/15/2018 22:11:08][books_cars_business] Successfully followed user: oscarruiz97
+[01/15/2018 22:11:51][books_cars_business] Successfully unfollowed user: leroy_lonewolf
+[01/15/2018 22:11:55][books_cars_business] Successfully followed user: nyshawn2745
+[01/15/2018 22:12:40][books_cars_business] Successfully followed user: dhtgphotography
+[01/15/2018 22:12:51][books_cars_business] Successfully unfollowed user: itscameron_97
+[01/15/2018 22:13:25][books_cars_business] Successfully followed user: frnav
+[01/15/2018 22:13:52][books_cars_business] Successfully unfollowed user: ufuksakarr
+[01/15/2018 22:14:11][books_cars_business] Successfully followed user: bernstockcarsphotography
+[01/15/2018 22:14:53][books_cars_business] Successfully unfollowed user: hamza.juma2000
+[01/15/2018 22:14:57][books_cars_business] Successfully followed user: hwi_distribution_center_452
+[01/15/2018 22:15:42][books_cars_business] Successfully followed user: curstincubria
+[01/15/2018 22:15:53][books_cars_business] Successfully unfollowed user: jxnas_mr
+[01/15/2018 22:16:28][books_cars_business] Successfully followed user: dima_gold_13
+[01/15/2018 22:16:53][books_cars_business] Successfully unfollowed user: _sam.palmer
+[01/15/2018 22:17:14][books_cars_business] Successfully followed user: marioflaviojapa
+[01/15/2018 22:17:54][books_cars_business] Successfully unfollowed user: pascal_mz3
+[01/15/2018 22:17:59][books_cars_business] Successfully followed user: luigi_p.a
+[01/15/2018 22:18:45][books_cars_business] marcelo.creations is verified or is a big account
+[01/15/2018 22:18:47][books_cars_business] Successfully followed user: kevn.d
+[01/15/2018 22:18:55][books_cars_business] Successfully unfollowed user: hannes853
+[01/15/2018 22:19:33][books_cars_business] Successfully followed user: printsfromtheheart
+[01/15/2018 22:19:55][books_cars_business] Successfully unfollowed user: jorgern_5
+[01/15/2018 22:20:18][books_cars_business] Successfully followed user: idm523
+[01/15/2018 22:20:56][books_cars_business] Successfully unfollowed user: mauribj
+[01/15/2018 22:21:03][books_cars_business] Successfully followed user: wcrto
+[01/15/2018 22:21:49][books_cars_business] Successfully followed user: orangelpereira
+[01/15/2018 22:21:56][books_cars_business] Successfully unfollowed user: mrtn.qst
+[01/15/2018 22:22:35][books_cars_business] Successfully followed user: tonyg.2
+[01/15/2018 22:22:56][books_cars_business] Successfully unfollowed user: edu_vargasss
+[01/15/2018 22:23:20][books_cars_business] alanj.torres is verified or is a big account
+[01/15/2018 22:23:22][books_cars_business] Successfully followed user: altonhill54
+[01/15/2018 22:23:56][books_cars_business] Successfully unfollowed user: _msias
+[01/15/2018 22:24:08][books_cars_business] Successfully followed user: avtochehli_na_zakaz
+[01/15/2018 22:24:53][books_cars_business] Successfully followed user: seanandersonlaw
+[01/15/2018 22:24:57][books_cars_business] Successfully unfollowed user: madii_2808
+[01/15/2018 22:25:38][books_cars_business] Successfully followed user: alen.raw
+[01/15/2018 22:25:58][books_cars_business] Successfully unfollowed user: marcel_nunn_
+[01/15/2018 22:26:23][books_cars_business] modecarbon is verified or is a big account
+[01/15/2018 22:26:26][books_cars_business] Successfully followed user: mohamed__galbat
+[01/15/2018 22:26:59][books_cars_business] Successfully unfollowed user: gaaageturner
+[01/15/2018 22:27:11][books_cars_business] Successfully followed user: descalls
+[01/15/2018 22:27:55][books_cars_business] Successfully followed user: mao.pinzon
+[01/15/2018 22:27:59][books_cars_business] Successfully unfollowed user: vanirosi
+[01/15/2018 22:28:42][books_cars_business] Successfully followed user: abhi30_db9
+[01/15/2018 22:29:00][books_cars_business] Successfully unfollowed user: gabriela_tihomirova
+[01/15/2018 22:29:27][books_cars_business] Successfully followed user: duvanbeltran3567
+[01/15/2018 22:30:00][books_cars_business] Successfully unfollowed user: nisi2502
+[01/15/2018 22:30:13][books_cars_business] Successfully followed user: tx_greatwhite
+[01/15/2018 22:30:58][books_cars_business] Successfully followed user: jlv.photos
+[01/15/2018 22:31:01][books_cars_business] Successfully unfollowed user: audialex48
+[01/15/2018 22:31:43][books_cars_business] michaeljauregui is verified or is a big account
+[01/15/2018 22:31:45][books_cars_business] Successfully followed user: miguel_felipe_merino
+[01/15/2018 22:32:02][books_cars_business] Successfully unfollowed user: chrxs_14
+[01/15/2018 22:32:30][books_cars_business] Successfully followed user: hutchison.m
+[01/15/2018 22:33:02][books_cars_business] Successfully unfollowed user: th0ma5.0815
+[01/15/2018 22:33:16][books_cars_business] Successfully followed user: cesar_heriquez
+[01/15/2018 22:34:01][books_cars_business] Successfully followed user: heres.johnnie
+[01/15/2018 22:34:03][books_cars_business] Successfully unfollowed user: _lx.saa._
+[01/15/2018 22:34:46][books_cars_business] Successfully followed user: joeker826
+[01/15/2018 22:35:04][books_cars_business] Successfully unfollowed user: marinaakreitmayr
+[01/15/2018 22:35:32][books_cars_business] Successfully followed user: migueltr8
+[01/15/2018 22:36:04][books_cars_business] Successfully unfollowed user: maxvin_63
+[01/15/2018 22:36:18][books_cars_business] Successfully followed user: sumeshwerraman
+[01/15/2018 22:37:03][books_cars_business] Successfully followed user: len.zuro
+[01/15/2018 22:37:04][books_cars_business] Successfully unfollowed user: leon_balz
+[01/15/2018 22:37:48][books_cars_business] skizo.store is verified or is a big account
+[01/15/2018 22:37:50][books_cars_business] Successfully followed user: jewish.father
+[01/15/2018 22:38:05][books_cars_business] Successfully unfollowed user: adventuresoffthebeardedfelix
+[01/15/2018 22:38:35][books_cars_business] porschebybase is verified or is a big account
+[01/15/2018 22:38:38][books_cars_business] Successfully followed user: _.violet._jinx._
+[01/15/2018 22:39:05][books_cars_business] Successfully unfollowed user: tuncike75
+[01/15/2018 22:39:22][books_cars_business] Successfully followed user: mcvasnut
+[01/15/2018 22:40:06][books_cars_business] Successfully unfollowed user: gmk00_1
+[01/15/2018 22:40:08][books_cars_business] Successfully followed user: cargirlking
+[01/15/2018 22:40:54][books_cars_business] Successfully followed user: mo.amg
+[01/15/2018 22:41:06][books_cars_business] Successfully unfollowed user: jakov1139
+[01/15/2018 22:41:40][books_cars_business] Successfully followed user: jarvis636
+[01/15/2018 22:42:07][books_cars_business] Successfully unfollowed user: lauraru17
+[01/15/2018 22:42:25][books_cars_business] Successfully followed user: alejandroleon2207
+[01/15/2018 22:43:08][books_cars_business] Successfully unfollowed user: christiann.16_
+[01/15/2018 22:43:11][books_cars_business] Successfully followed user: vortex_nine
+[01/15/2018 22:43:56][books_cars_business] petrolmadness is verified or is a big account
+[01/15/2018 22:43:58][books_cars_business] Successfully followed user: jeiii1102
+[01/15/2018 22:44:09][books_cars_business] Successfully unfollowed user: vxlxir_nsh
+[01/15/2018 22:44:44][books_cars_business] Successfully followed user: alonso_rn87
+[01/15/2018 22:45:09][books_cars_business] Successfully unfollowed user: iammaus
+[01/15/2018 22:45:29][books_cars_business] Successfully followed user: ivantheconqueror
+[01/15/2018 22:46:09][books_cars_business] Successfully unfollowed user: smnvc
+[01/15/2018 22:46:15][books_cars_business] Successfully followed user: heavenjustshoots
+[01/15/2018 22:47:00][books_cars_business] Successfully followed user: gabrieloureiroo
+[01/15/2018 22:47:09][books_cars_business] Successfully unfollowed user: frani1611
+[01/15/2018 22:47:46][books_cars_business] Successfully followed user: mk_ph0t0graphy
+[01/15/2018 22:48:09][books_cars_business] Successfully unfollowed user: gencokoray
+[01/15/2018 22:48:31][books_cars_business] Successfully followed user: rolex_cov
+[01/15/2018 22:49:10][books_cars_business] Successfully unfollowed user: _ro_ma_88_
+[01/15/2018 22:49:17][books_cars_business] Successfully followed user: juanp.4
+[01/15/2018 22:50:02][books_cars_business] Successfully followed user: soniajahnavi
+[01/15/2018 22:50:10][books_cars_business] Successfully unfollowed user: it_s_marco
+[01/15/2018 22:50:47][books_cars_business] Successfully followed user: umark77
+[01/15/2018 22:51:11][books_cars_business] Successfully unfollowed user: tim.v08
+[01/15/2018 22:51:33][books_cars_business] Successfully followed user: loboxolo
+[01/15/2018 22:52:11][books_cars_business] Successfully unfollowed user: teo_kaizett
+[01/15/2018 22:52:19][books_cars_business] Successfully followed user: mrboughton
+[01/15/2018 22:53:04][books_cars_business] Successfully followed user: yung.whitekidd
+[01/15/2018 22:53:12][books_cars_business] Successfully unfollowed user: gnkk_pascal
+[01/15/2018 22:53:50][books_cars_business] Successfully followed user: alangaw93
+[01/15/2018 22:54:13][books_cars_business] Successfully unfollowed user: stephan.fink
+[01/15/2018 22:54:35][books_cars_business] Successfully followed user: drew.corona
+[01/15/2018 22:55:14][books_cars_business] Successfully unfollowed user: alina.h.1608
+[01/15/2018 22:55:21][books_cars_business] Successfully followed user: hugogaudio
+[01/15/2018 22:56:06][books_cars_business] Successfully followed user: adyng62
+[01/15/2018 22:56:14][books_cars_business] Successfully unfollowed user: fabienne_gerhardt
+[01/15/2018 22:56:52][books_cars_business] Successfully followed user: haithamakel
+[01/15/2018 22:57:14][books_cars_business] Successfully unfollowed user: _mi1002_
+[01/15/2018 22:57:37][books_cars_business] Successfully followed user: arthurtulio
+[01/15/2018 22:58:14][books_cars_business] Successfully unfollowed user: strimmerluca
+[01/15/2018 22:58:22][books_cars_business] ac_photography is verified or is a big account
+[01/15/2018 22:58:24][books_cars_business] Successfully followed user: konstantin.ivshin
+[01/15/2018 22:59:09][books_cars_business] Successfully followed user: danielgaskinm
+[01/15/2018 22:59:14][books_cars_business] Successfully unfollowed user: zeiad_reda_
+[01/15/2018 22:59:55][books_cars_business] Successfully followed user: arturolimonperez
+[01/15/2018 23:00:15][books_cars_business] Successfully unfollowed user: theheavencraft
+[01/15/2018 23:00:40][books_cars_business] Successfully followed user: jeffreyhendrix
+[01/15/2018 23:01:15][books_cars_business] Successfully unfollowed user: _astor_qe30
+[01/15/2018 23:01:25][books_cars_business] Successfully followed user: nellnotnormal
+[01/15/2018 23:02:11][books_cars_business] Successfully followed user: coss_295
+[01/15/2018 23:02:16][books_cars_business] Successfully unfollowed user: merrow_1900
+[01/15/2018 23:02:56][books_cars_business] Successfully followed user: nico_cluzet
+[01/15/2018 23:03:17][books_cars_business] Successfully unfollowed user: allxblvckxeverything
+[01/15/2018 23:03:43][books_cars_business] Successfully followed user: _pablo.gm_
+[01/15/2018 23:04:17][books_cars_business] Successfully unfollowed user: jfafelipe
+[01/15/2018 23:04:27][books_cars_business] peponnkkss is verified or is a big account
+[01/15/2018 23:04:28][books_cars_business] m4ikeyspikey is verified or is a big account
+[01/15/2018 23:04:30][books_cars_business] Successfully followed user: chase_roark
+[01/15/2018 23:05:16][books_cars_business] Successfully followed user: anhphanho
+[01/15/2018 23:05:18][books_cars_business] Successfully unfollowed user: ahmed_kedjour
+[01/15/2018 23:06:01][books_cars_business] Successfully followed user: axel_bmg
+[01/15/2018 23:06:19][books_cars_business] Successfully unfollowed user: chrisss3lp
+[01/15/2018 23:06:47][books_cars_business] Successfully followed user: tran.edan
+[01/15/2018 23:07:19][books_cars_business] Successfully unfollowed user: stoffelpuetz
+[01/15/2018 23:07:32][books_cars_business] krlozabesp is verified or is a big account
+[01/15/2018 23:07:34][books_cars_business] Successfully followed user: essamnadeem
+[01/15/2018 23:08:20][books_cars_business] Successfully followed user: paulaeverette
+[01/15/2018 23:08:21][books_cars_business] Successfully unfollowed user: vw_phaeton_austria
+[01/15/2018 23:09:05][books_cars_business] Successfully followed user: ahmadnahle1
+[01/15/2018 23:09:21][books_cars_business] Successfully unfollowed user: nic__kos
+[01/15/2018 23:09:50][books_cars_business] Successfully followed user: sr240zammy
+[01/15/2018 23:10:22][books_cars_business] Successfully unfollowed user: i.a.n105
+[01/15/2018 23:10:37][books_cars_business] Successfully followed user: sienafreed
+[01/15/2018 23:11:23][books_cars_business] Successfully followed user: ricardo.senun
+[01/15/2018 23:11:23][books_cars_business] Successfully unfollowed user: audiworldfans
+[01/15/2018 23:12:08][books_cars_business] Successfully followed user: eriegz
+[01/15/2018 23:12:22][books_cars_business] Successfully unfollowed user: davio2404
+[01/15/2018 23:12:55][books_cars_business] Successfully followed user: pandhorror
+[01/15/2018 23:13:23][books_cars_business] Successfully unfollowed user: feel_the_damage
+[01/15/2018 23:13:41][books_cars_business] Successfully followed user: hemantj0327
+[01/15/2018 23:14:24][books_cars_business] Successfully unfollowed user: durelle_john_prakasim
+[01/15/2018 23:14:26][books_cars_business] Successfully followed user: reo_1219
+[01/15/2018 23:15:11][books_cars_business] persianshelby is verified or is a big account
+[01/15/2018 23:15:13][books_cars_business] Successfully followed user: vitosavelyev
+[01/15/2018 23:15:25][books_cars_business] Successfully unfollowed user: olivercwik
+[01/15/2018 23:15:59][books_cars_business] Successfully followed user: buenosvientos_
+[01/15/2018 23:16:25][books_cars_business] Successfully unfollowed user: hysnipllana
+[01/15/2018 23:16:45][books_cars_business] Successfully followed user: diegorodriguez108
+[01/15/2018 23:17:26][books_cars_business] Successfully unfollowed user: davidradevic11
+[01/15/2018 23:17:30][books_cars_business] Successfully followed user: anthonykuri
+[01/15/2018 23:18:16][books_cars_business] Successfully followed user: colomionis
+[01/15/2018 23:18:27][books_cars_business] Successfully unfollowed user: xshawn_s3x
+[01/15/2018 23:19:01][books_cars_business] Successfully followed user: aytchwen
+[01/15/2018 23:19:28][books_cars_business] Successfully unfollowed user: lumax3107
+[01/15/2018 23:19:46][books_cars_business] Successfully followed user: njrbrb92
+[01/15/2018 23:20:28][books_cars_business] Successfully unfollowed user: lukssyy
+[01/15/2018 23:20:32][books_cars_business] Successfully followed user: carloscraic
+[01/15/2018 23:21:17][books_cars_business] Successfully followed user: charlosr
+[01/15/2018 23:21:28][books_cars_business] Successfully unfollowed user: manuloeh
+[01/15/2018 23:22:03][books_cars_business] Successfully followed user: franmubarak
+[01/15/2018 23:22:29][books_cars_business] Successfully unfollowed user: andi_barth
+[01/15/2018 23:22:49][books_cars_business] Successfully followed user: gkm216a
+[01/15/2018 23:23:29][books_cars_business] Successfully unfollowed user: _xjanaxx__
+[01/15/2018 23:23:34][books_cars_business] Successfully followed user: bryanortegasalazar
+[01/15/2018 23:24:20][books_cars_business] Successfully followed user: pedronevesp
+[01/15/2018 23:24:31][books_cars_business] Successfully unfollowed user: sarai__noemi__
+[01/15/2018 23:25:05][books_cars_business] Successfully followed user: chochelozano
+[01/15/2018 23:25:31][books_cars_business] Successfully unfollowed user: optms_brian
+[01/15/2018 23:25:50][books_cars_business] chand590 is verified or is a big account
+[01/15/2018 23:25:52][books_cars_business] Successfully followed user: cas0280
+[01/15/2018 23:26:31][books_cars_business] Successfully unfollowed user: jfess930
+[01/15/2018 23:26:38][books_cars_business] Successfully followed user: victorgmauricio
+[01/15/2018 23:27:24][books_cars_business] Successfully followed user: accost2u
+[01/15/2018 23:27:32][books_cars_business] Successfully unfollowed user: ck_rider_official
+[01/15/2018 23:28:08][books_cars_business] shazkhan_ is verified or is a big account
+[01/15/2018 23:28:11][books_cars_business] Successfully followed user: drew.climbs
+[01/15/2018 23:28:32][books_cars_business] Successfully unfollowed user: derjonas98_
+[01/15/2018 23:28:57][books_cars_business] Successfully followed user: carson_bretz
+[01/15/2018 23:29:33][books_cars_business] Successfully unfollowed user: serge_grizmann
+[01/15/2018 23:29:42][books_cars_business] Successfully followed user: aws_mughal
+[01/15/2018 23:30:27][books_cars_business] Successfully followed user: junitofco.1972
+[01/15/2018 23:30:34][books_cars_business] Successfully unfollowed user: tuning_ist_alles
+[01/15/2018 23:31:14][books_cars_business] Successfully followed user: md.azamkhan56
+[01/15/2018 23:31:35][books_cars_business] Successfully unfollowed user: xzfinnxz
+[01/15/2018 23:31:59][books_cars_business] Successfully followed user: trentjf4
+[01/15/2018 23:32:35][books_cars_business] Successfully unfollowed user: mikey_fresh_one
+[01/15/2018 23:32:45][books_cars_business] Successfully followed user: sergeicheban
+[01/15/2018 23:33:30][books_cars_business] Successfully followed user: carlosluna32
+[01/15/2018 23:33:36][books_cars_business] Successfully unfollowed user: max.wampach
+[01/15/2018 23:34:15][books_cars_business] kristinasnyderofficial is verified or is a big account
+[01/15/2018 23:34:17][books_cars_business] Successfully followed user: stw_photos
+[01/15/2018 23:34:36][books_cars_business] Successfully unfollowed user: lucas_wuad
+[01/15/2018 23:35:03][books_cars_business] Successfully followed user: alden.chong
+[01/15/2018 23:35:37][books_cars_business] Successfully unfollowed user: schultze_tony
+[01/15/2018 23:35:49][books_cars_business] Successfully followed user: nurzat.90.isa
+[01/15/2018 23:36:34][books_cars_business] Successfully followed user: iamjstoudemire
+[01/15/2018 23:36:37][books_cars_business] Successfully unfollowed user: lenawtmn_
+[01/15/2018 23:37:19][books_cars_business] Successfully followed user: supercarsoftexas_
+[01/15/2018 23:37:37][books_cars_business] Successfully unfollowed user: emihoooo
+[01/15/2018 23:38:05][books_cars_business] Successfully followed user: brunolittle
+[01/15/2018 23:38:37][books_cars_business] Successfully unfollowed user: ardizzoneorfei
+[01/15/2018 23:38:50][books_cars_business] katie_teter has been followed before
+[01/15/2018 23:38:52][books_cars_business] Successfully followed user: legend.rocvo.1
+[01/15/2018 23:39:38][books_cars_business] Successfully followed user: juan2759.18
+[01/15/2018 23:39:39][books_cars_business] Successfully unfollowed user: xx_mot_xx
+[01/15/2018 23:40:24][books_cars_business] Successfully followed user: turbochargedmedia
+[01/15/2018 23:40:39][books_cars_business] Successfully unfollowed user: graik9
+[01/15/2018 23:41:10][books_cars_business] Successfully followed user: fh3_picturesz
+[01/15/2018 23:41:40][books_cars_business] Successfully unfollowed user: janemann2.0
+[01/15/2018 23:41:54][books_cars_business] vincentt63 is verified or is a big account
+[01/15/2018 23:41:56][books_cars_business] Successfully followed user: nestorreus
+[01/15/2018 23:42:40][books_cars_business] Successfully unfollowed user: radek_un
+[01/15/2018 23:42:43][books_cars_business] Successfully followed user: jorgesolmed
+[01/15/2018 23:43:28][books_cars_business] Successfully followed user: nick.sedlar
+[01/15/2018 23:43:41][books_cars_business] Successfully unfollowed user: niklas0723
+[01/15/2018 23:44:14][books_cars_business] Successfully followed user: spencerefisher
+[01/15/2018 23:44:42][books_cars_business] Successfully unfollowed user: christian_ziudbg
+[01/15/2018 23:45:01][books_cars_business] Successfully followed user: eddiepompa
+[01/15/2018 23:45:42][books_cars_business] Successfully unfollowed user: ensaryildirim7530
+[01/15/2018 23:45:45][books_cars_business] Successfully followed user: zlatna.kasika
+[01/15/2018 23:46:31][books_cars_business] Successfully followed user: young_panda310
+[01/15/2018 23:46:43][books_cars_business] Successfully unfollowed user: hristogrudlev
+[01/15/2018 23:47:16][books_cars_business] Successfully followed user: charly_avalos
+[01/15/2018 23:47:43][books_cars_business] Successfully unfollowed user: _jonas._mue_
+[01/15/2018 23:48:02][books_cars_business] Successfully followed user: valdeci_horikini
+[01/15/2018 23:48:44][books_cars_business] Successfully unfollowed user: the_devil_hero
+[01/15/2018 23:48:49][books_cars_business] Successfully followed user: daluramirezz
+[01/15/2018 23:49:34][books_cars_business] Successfully followed user: timur_izmir
+[01/15/2018 23:49:44][books_cars_business] Successfully unfollowed user: _mr.stefano_
+[01/15/2018 23:50:20][books_cars_business] Successfully followed user: maksim.kulikovskii
+[01/15/2018 23:50:45][books_cars_business] Successfully unfollowed user: e_motorsport
+[01/15/2018 23:51:05][books_cars_business] Successfully followed user: jim5tagram
+[01/15/2018 23:51:46][books_cars_business] Successfully unfollowed user: peterbowlen
+[01/15/2018 23:51:50][books_cars_business] Successfully followed user: dzkan
+[01/15/2018 23:52:36][books_cars_business] Successfully followed user: jimmypaniagua2626
+[01/15/2018 23:52:47][books_cars_business] Successfully unfollowed user: husq_510
+[01/15/2018 23:53:21][books_cars_business] Successfully followed user: littleboyblonde05
+[01/15/2018 23:53:46][books_cars_business] Successfully unfollowed user: _k34nu
+[01/15/2018 23:54:08][books_cars_business] Successfully followed user: kristiankapelrud
+[01/15/2018 23:54:47][books_cars_business] Successfully unfollowed user: dom_jaeckel
+[01/15/2018 23:54:54][books_cars_business] Successfully followed user: thecabosur
+[01/15/2018 23:55:39][books_cars_business] Successfully followed user: emosh1994
+[01/15/2018 23:55:48][books_cars_business] Successfully unfollowed user: belavarg4
+[01/15/2018 23:56:24][books_cars_business] Successfully followed user: omar.t.v
+[01/15/2018 23:56:48][books_cars_business] Successfully unfollowed user: dario_niper
+[01/15/2018 23:57:11][books_cars_business] Successfully followed user: user7067
+[01/15/2018 23:57:49][books_cars_business] Successfully unfollowed user: vik.strel8_
+[01/15/2018 23:57:56][books_cars_business] Successfully followed user: toya8427
+[01/15/2018 23:58:42][books_cars_business] Successfully followed user: ____.alan
+[01/15/2018 23:58:49][books_cars_business] Successfully unfollowed user: marty_m8
+[01/15/2018 23:59:28][books_cars_business] Successfully followed user: mehdi_bkt_
+[01/15/2018 23:59:50][books_cars_business] Successfully unfollowed user: eike_2002
+--------------------------------------------------------------------------------
+[01/16/2018 07:56:01][books_cars_business] Attempting to login
+[01/16/2018 07:56:03][books_cars_business] Login successful
+--------------------------------------------------------------------------------
+[01/16/2018 08:01:58][books_cars_business] Attempting to login
+[01/16/2018 08:02:01][books_cars_business] Login successful
+[01/16/2018 08:02:03][books_cars_business] Successfully followed user: roberts_745
+[01/16/2018 08:02:05][books_cars_business] Successfully unfollowed user: voguishteam
+[01/16/2018 08:02:48][books_cars_business] Successfully followed user: m.h_bvss
+[01/16/2018 08:03:02][books_cars_business] Successfully unfollowed user: sergibarril5
+[01/16/2018 08:03:33][books_cars_business] Successfully followed user: diegopaolo
+[01/16/2018 08:04:02][books_cars_business] Successfully unfollowed user: danielgeier2907
+[01/16/2018 08:04:18][books_cars_business] Successfully followed user: nico.kuitu.mukendi
+[01/16/2018 08:05:04][books_cars_business] Successfully followed user: p513pp
+[01/16/2018 08:05:04][books_cars_business] Successfully unfollowed user: matteo.crd
+[01/16/2018 08:05:50][books_cars_business] Successfully followed user: roman__ha
+[01/16/2018 08:06:04][books_cars_business] Successfully unfollowed user: m__antonia_
+[01/16/2018 08:06:35][books_cars_business] Successfully followed user: hasimkoese
+[01/16/2018 08:07:04][books_cars_business] Successfully unfollowed user: lina21.6
+[01/16/2018 08:07:20][books_cars_business] Successfully followed user: muratalim2
+[01/16/2018 08:08:06][books_cars_business] Successfully followed user: tamatyi
+[01/16/2018 08:08:06][books_cars_business] Successfully unfollowed user: fw_mann_17

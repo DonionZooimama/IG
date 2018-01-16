@@ -55,10 +55,10 @@ def getfollowinglist(session, id):
 def getuserinfo(session, user):
 	try:
 		url_info = url_account % (user)
-		data = session.get(url_info)
-		return findJson(data.text, '<script type="text/javascript">window._sharedData = ', ';</script>')
+		post = session.get(url_info)
+		return findJson(post.text, '<script type="text/javascript">window._sharedData = ', ';</script>')
 	except:
-		return False
+		return post.status_code
 
 def followUser(session, id):
 	try:

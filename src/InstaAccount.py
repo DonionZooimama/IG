@@ -93,6 +93,12 @@ class Account(threading.Thread):
 			else:
 				if self.dayFollowingCount != 0:
 					self.dayFollowingCount = 0
+				if self.currentFollowTimer <= 9999:
+					self.currentFollowTimer = 9999
+				if self.currentUnfollowTimer != 9999:
+					self.currentUnfollowTimer = 9999
+				if self.accountSuspended == True:
+					self.accountSuspended = False
 				time.sleep(3600)
 
 	def login(self):
@@ -329,6 +335,12 @@ class Account(threading.Thread):
 
 	def canfollow(self, user):
 		info = getuserinfo(self.session, user['username'])
+		if isinstance(info, int):
+			tempLog = "%s[%s] !!!Error checking if user can be followed: %s Error code: %s!!!" % (self.getTimeStamp(), self.username, user['username'], str(info))
+			self.writeLog(tempLog)
+			self.writeCSV('error', 'canfollow', str(info))
+			self.sendEmail(tempLog)
+
 		followers = info['entry_data']['ProfilePage'][0]['user']['followed_by']['count']
 
 		if user['followed_by_viewer'] or user['requested_by_viewer']:
