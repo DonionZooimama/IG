@@ -191,23 +191,23 @@ class Account(threading.Thread):
 			self.writeLog(data)
 
 	def writeCSV(self, status, event, data):
-		#try:
-		currentDateTime = str(datetime.now())
-		splitBySpace = currentDateTime.split(' ')
-		date = splitBySpace[0].split('-')
-		time = splitBySpace[1].split('.')[0]
-		time = time.split(':')
+		try:
+			currentDateTime = str(datetime.now())
+			splitBySpace = currentDateTime.split(' ')
+			date = splitBySpace[0].split('-')
+			time = splitBySpace[1].split('.')[0]
+			time = time.split(':')
 
-		# day, month, year, hours, minutes, seconds, event
-		log = str(date[2]) + ',' + str(date[1]) + ',' + str(date[0]) + ',' + str(time[0]) + ',' + str(time[1]) + ',' + str(time[2]) + ',' + status + ',' + event + ',' + data
+			# day, month, year, hours, minutes, seconds, event
+			log = str(date[2]) + ',' + str(date[1]) + ',' + str(date[0]) + ',' + str(time[0]) + ',' + str(time[1]) + ',' + str(time[2]) + ',' + status + ',' + event + ',' + data
 
-		f = open(self.directory + "logs.csv","a")
-		f.write(log + '\n')
-		f.close()
-		#except:
-			#f = open(self.directory + "logs.csv","w") 
-			#f.close()
-			#self.writeCSV(status, event, data)
+			f = open(self.directory + "logs.csv","a")
+			f.write(log + '\n')
+			f.close()
+		except:
+			f = open(self.directory + "logs.csv","w") 
+			f.close()
+			self.writeCSV(status, event, data)
 
 	def writePreviouslyFollowed(self, data):
 		f = open(self.directory + "previous_user.txt","a")
@@ -335,13 +335,14 @@ class Account(threading.Thread):
 
 	def canfollow(self, user):
 		info = getuserinfo(self.session, user['username'])
-		if isinstance(info, int):
-			tempLog = "%s[%s] !!!Error checking if user can be followed: %s Error code: %s!!!" % (self.getTimeStamp(), self.username, user['username'], str(info))
+		try:
+			followers = info['entry_data']['ProfilePage'][0]['user']['followed_by']['count']
+		except:
+			empLog = "%s[%s] !!!Error checking if user can be followed: %s!!!" % (self.getTimeStamp(), self.username, user['username'])
 			self.writeLog(tempLog)
 			self.writeCSV('error', 'canfollow', str(info))
 			self.sendEmail(tempLog)
-
-		followers = info['entry_data']['ProfilePage'][0]['user']['followed_by']['count']
+			return False
 
 		if user['followed_by_viewer'] or user['requested_by_viewer']:
 			tempLog = "%s[%s] Already following user: %s" % (self.getTimeStamp(), self.username, user['username'])
