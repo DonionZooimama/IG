@@ -4,15 +4,19 @@ from datetime import datetime
 argList = sys.argv
 
 if len(argList) <= 1 or argList[1] == 'help':
-	print('userinfo.py help\n')
+	print('HELP')
 	print('\tGet info from start of file to end of file')
-	print('\tuserinfo.py username\n')
-	print('\tGet info from start date till now')
-	print('\tuserinfo.py username [start date dd/mm/yy]\n')
-	print('\tGet info from start date till end date')
-	print('\tuserinfo.py username [start date dd/mm/yy] [end date dd/mm/yy]\n')
-	print('\tGet info from today')
-	print('\tuserinfo.py username today\n')
+	print('\texample: userinfo.py username\n')
+	print('\tGet info from input date')
+	print('\texample: userinfo.py username [input date dd/mm/yy]\n')
+	print('\tGet info from a start date to end date')
+	print('\texample: userinfo.py username [start date dd/mm/yy] [end date dd/mm/yy]\n')
+	print('\tOptions')
+	print("\ttoday - uses today's date")
+	print("\tyesterday - uses tyesterday date\n")
+	print("\texample: userinfo.py username yesterday today")
+	print("\twill return all the info the happened from yesterday till today\n")
+
 else:
 	username = argList[1]
 
@@ -64,6 +68,7 @@ else:
 	errorsList = []
 	follows = 0
 	unfollows = 0
+	likes = 0
 
 	
 	if startDate != None and endDate != None:
@@ -75,11 +80,14 @@ else:
 						follows += 1
 					elif log[7] == 'unfollow':
 						unfollows += 1
+					elif log[7] == 'like':
+						likes += 1
 				else:
 					errors += 1
 					errorsList.append(log)
 		print('Followed: ' + str(follows) + ' users')
 		print('Unfollowed: ' + str(unfollows) + ' users')
+		print('Liked: ' + str(likes) + ' pictures')
 		print('Errors: ' + str(errors))
 		if errors > 0:
 			print('\nHere are the logs:')
@@ -95,11 +103,14 @@ else:
 						follows += 1
 					elif log[7] == 'unfollow':
 						unfollows += 1
+					elif log[7] == 'like':
+						likes += 1
 				else:
 					errors += 1
 					errorsList.append(log)
 		print('Followed: ' + str(follows) + ' users')
 		print('Unfollowed: ' + str(unfollows) + ' users')
+		print('Liked: ' + str(likes) + ' pictures')
 		print('Errors: ' + str(errors))
 		if errors > 0:
 			print('\nHere are the logs:')
@@ -113,12 +124,15 @@ else:
 					follows += 1
 				elif log[7] == 'unfollow':
 					unfollows += 1
+				elif log[7] == 'like':
+						likes += 1
 			else:
 				errors += 1
 				errorsList.append(log)
 		print('From file creation till now\n')
 		print('Followed: ' + str(follows) + ' users')
 		print('Unfollowed: ' + str(unfollows) + ' users')
+		print('Liked: ' + str(likes) + ' pictures')
 		print('Errors: ' + str(errors))
 		if errors > 0:
 			print('\nHere are the logs:')

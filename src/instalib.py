@@ -4,7 +4,7 @@ from WebScraper import *
 
 url = 'https://www.instagram.com/'
 url_tag = 'https://www.instagram.com/explore/tags/%s/?__a=1'
-url_likes = 'https://www.instagram.com/web/likes/%s/like/'
+url_like = 'https://www.instagram.com/web/likes/%s/like/'
 url_unlike = 'https://www.instagram.com/web/likes/%s/unlike/'
 url_comment = 'https://www.instagram.com/web/comments/%s/add/'
 url_follow = 'https://www.instagram.com/web/friendships/%s/follow/'
@@ -16,7 +16,7 @@ url_user_info = 'https://www.instagram.com/%s/?__a=1'
 url_account = 'https://www.instagram.com/%s/'
 
 url_following_list = 'https://www.instagram.com/graphql/query/?query_id=17874545323001329&variables={"id":%s,"first":9999}'
-url_liked_post_list = 'https://www.instagram.com/graphql/query/?query_id=17864450716183058&variables={"shortcode":"%s","first":1000}'
+url_liked_post_list = 'https://www.instagram.com/graphql/query/?query_id=17864450716183058&variables={"shortcode":"%s","first":100}'
 
 user_agent = ("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 ""(KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36")
 accept_language = 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
@@ -73,5 +73,37 @@ def unfollowUser(session, id):
 		url_info = url_unfollow % (id)
 		post = session.post(url_info)
 		return post.status_code
+	except:
+		return False
+
+def likemedia(session, id):
+	try:
+		url_info = url_like % (id)
+		post = session.post(url_info)
+		return post.status_code
+	except:
+		return False
+
+def getaccountmedia(session, account):
+	try:
+		url_info = url_account % (account)
+		data = session.get(url_info)
+		data = findJson(data.text, '<script type="text/javascript">window._sharedData = ', ';</script>')
+		return data['entry_data']['ProfilePage'][0]['user']['media']['nodes']
+	except:
+		return False
+
+
+def getuserswholikedmedia(session, code):
+	try:
+		url_info = url_liked_post_list % code['code']
+		data = session.get(url_info)
+		data = json.loads(data.text)
+		tempList = data['data']['shortcode_media']['edge_liked_by']['edges']
+		returnList = []
+		for user in tempList:
+			returnList.append(user['node'])
+
+		return returnList
 	except:
 		return False

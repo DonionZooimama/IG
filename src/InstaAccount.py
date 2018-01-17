@@ -256,27 +256,28 @@ class Account(threading.Thread):
 	def getMediaLikersList(self, id):
 		try:
 			r = random.randrange(len(self.targetAccounts)-1)
-
-			url_info = self.url_account % (self.targetAccounts[r])
-			data = self.session.get(url_info)
-			data = findJson(data.text, '<script type="text/javascript">window._sharedData = ', ';</script>')
-			code = data['entry_data']['ProfilePage'][0]['user']['media']['nodes'][0]['code']
-			
-			url_info = self.url_liked_post_list % code
-			data = self.session.get(url_info)
-			data = json.loads(data.text)
-			tempList = data['data']['shortcode_media']['edge_liked_by']['edges']
-
-			returnList = []
-			for user in tempList:
-				returnList.append(user['node'])
-
-			return returnList
+			code = getaccountmedia(self.session, self.targetAccounts[r])
+			return getuserswholikedmedia(self.session, code[0])
 		except:
 			tempLog = "%s[%s] !!!Error getting media likers list connection timed out!!!" % (self.getTimeStamp(), self.username)
 			self.writeLog(tempLog)
 			self.accountStatus = False
 			return None
+
+	def likesequence(self, user):
+		try:
+			media = getaccountmedia(self.session, user['username'])
+			if len(media) >= 4:
+				for i in range(random.randrange(2,4)):
+					likemedia(self.session, media[i]['id'])
+					self.writeCSV('success', 'like', media[i]['code'])
+					time.sleep(random.randrange(1.0,4.0))
+		except:
+			tempLog = "%s[%s] !!!Error liking %s's photo!!!" % (self.getTimeStamp(), self.username, user['username'])
+			self.writeLog(tempLog)
+			self.writeCSV('error', 'like', user['username'])
+			self.sendEmail(tempLog)
+
 
 	def followsequence(self):
 		if self.dayFollowingCount < self.maxFollowingPerDay:
@@ -293,6 +294,7 @@ class Account(threading.Thread):
 					self.followingCount += 1
 					self.followIndex += 1
 					self.currentFollowTimer = 0
+					threading.Thread(self.likesequence(current_user)).start()
 				else:
 					if follow_request == 400:
 						self.accountSuspended = True
