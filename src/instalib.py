@@ -15,18 +15,16 @@ url_media_detail = 'https://www.instagram.com/p/%s/?__a=1'
 url_user_info = 'https://www.instagram.com/%s/?__a=1'
 url_account = 'https://www.instagram.com/%s/'
 
-url_following_list = 'https://www.instagram.com/graphql/query/?query_id=17874545323001329&variables={"id":%s,"first":9999}'
-url_liked_post_list = 'https://www.instagram.com/graphql/query/?query_id=17864450716183058&variables={"shortcode":"%s","first":100}'
+url_following_list = 'https://www.instagram.com/graphql/query/?query_hash=58712303d941c6855d4e888c5f0cd22f&variables={"id":"%s","first":9999}'
+url_liked_post_list = 'https://www.instagram.com/graphql/query/?query_hash=1cb6ec562846122743b61e492c85999f&variables={"shortcode":"%s","first":100}'
 
 user_agent = ("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 ""(KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36")
 accept_language = 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
 
 def getuserid(session, user):
 	try:
-		url_info = url_user_info % (user)
-		info = session.get(url_info)
-		info = json.loads(info.text)
-		return info['user']['id']
+		info = getuserinfo(session, user)
+		return info['config']['viewer']['id']
 	except:
 		return False
 
@@ -51,6 +49,7 @@ def getfollowinglist(session, id):
 		return returnList
 	except:
 		return False
+	
 
 def getuserinfo(session, user):
 	try:
@@ -92,7 +91,6 @@ def getaccountmedia(session, account):
 		return data['entry_data']['ProfilePage'][0]['user']['media']['nodes']
 	except:
 		return False
-
 
 def getuserswholikedmedia(session, code):
 	try:

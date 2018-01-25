@@ -27,8 +27,8 @@ class Account(threading.Thread):
 	url_user_info = 'https://www.instagram.com/%s/?__a=1'
 	url_account = 'https://www.instagram.com/%s/'
 
-	url_following_list = 'https://www.instagram.com/graphql/query/?query_id=17874545323001329&variables={"id":%s,"first":9999}'
-	url_liked_post_list = 'https://www.instagram.com/graphql/query/?query_id=17864450716183058&variables={"shortcode":"%s","first":200}'
+	url_following_list = 'https://www.instagram.com/graphql/query/?query_hash=58712303d941c6855d4e888c5f0cd22f&variables={"id":%s,"first":100}'
+	url_liked_post_list = 'https://www.instagram.com/graphql/query/?query_hash=1cb6ec562846122743b61e492c85999f&variables={"shortcode":"%s","first":200}'
 
 	user_agent = ("Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 ""(KHTML, like Gecko) Chrome/48.0.2564.103 Safari/537.36")
 	accept_language = 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4'
@@ -142,6 +142,7 @@ class Account(threading.Thread):
 		    r = self.session.get('https://www.instagram.com/')
 		    finder = r.text.find(self.username)
 		    if finder != -1:
+		    	
 		        self.id = getuserid(self.session, self.username)
 		        self.followingCount = int(getfollowingcount(self.session, self.username))
 		        self.accountStatus = True
@@ -340,10 +341,11 @@ class Account(threading.Thread):
 		try:
 			followers = info['entry_data']['ProfilePage'][0]['user']['followed_by']['count']
 		except:
-			empLog = "%s[%s] !!!Error checking if user can be followed: %s!!!" % (self.getTimeStamp(), self.username, user['username'])
+			tempLog = "%s[%s] !!!Error checking if user can be followed: %s!!!" % (self.getTimeStamp(), self.username, user['username'])
 			self.writeLog(tempLog)
-			self.writeCSV('error', 'canfollow', str(info))
+			self.writeCSV('error', 'canfollow', user['username'])
 			self.sendEmail(tempLog)
+			self.followIndex += 1
 			return False
 
 		if user['followed_by_viewer'] or user['requested_by_viewer']:

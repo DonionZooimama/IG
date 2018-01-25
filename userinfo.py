@@ -13,7 +13,7 @@ if len(argList) <= 1 or argList[1] == 'help':
 	print('\texample: userinfo.py username [start date dd/mm/yy] [end date dd/mm/yy]\n')
 	print('\tOptions')
 	print("\ttoday - uses today's date")
-	print("\tyesterday - uses tyesterday date\n")
+	print("\tyesterday - uses yesterday's date\n")
 	print("\texample: userinfo.py username yesterday today")
 	print("\twill return all the info the happened from yesterday till today\n")
 
